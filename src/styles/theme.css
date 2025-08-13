@@ -1,0 +1,398 @@
+/* Material Design 3 Theme Variables */
+:root {
+  /* Primary Colors */
+  --md-sys-color-primary: 103 80 164;
+  --md-sys-color-on-primary: 255 255 255;
+  --md-sys-color-primary-container: 234 221 255;
+  --md-sys-color-on-primary-container: 33 0 93;
+
+  /* Secondary Colors */
+  --md-sys-color-secondary: 98 91 113;
+  --md-sys-color-on-secondary: 255 255 255;
+  --md-sys-color-secondary-container: 232 222 248;
+  --md-sys-color-on-secondary-container: 30 25 43;
+
+  /* Tertiary Colors */
+  --md-sys-color-tertiary: 125 82 96;
+  --md-sys-color-on-tertiary: 255 255 255;
+  --md-sys-color-tertiary-container: 255 216 228;
+  --md-sys-color-on-tertiary-container: 55 11 30;
+
+  /* Error Colors */
+  --md-sys-color-error: 179 38 30;
+  --md-sys-color-on-error: 255 255 255;
+  --md-sys-color-error-container: 249 222 220;
+  --md-sys-color-on-error-container: 65 14 11;
+
+  /* Surface Colors */
+  --md-sys-color-surface: 254 247 255;
+  --md-sys-color-on-surface: 28 27 31;
+  --md-sys-color-surface-variant: 231 224 236;
+  --md-sys-color-on-surface-variant: 73 69 78;
+  --md-sys-color-surface-container-lowest: 255 255 255;
+  --md-sys-color-surface-container-low: 247 242 250;
+  --md-sys-color-surface-container: 243 237 247;
+  --md-sys-color-surface-container-high: 236 230 240;
+  --md-sys-color-surface-container-highest: 230 224 233;
+
+  /* Background Colors */
+  --md-sys-color-background: 254 247 255;
+  --md-sys-color-on-background: 28 27 31;
+
+  /* Outline Colors */
+  --md-sys-color-outline: 121 116 126;
+  --md-sys-color-outline-variant: 202 196 208;
+
+  /* Shadow Colors */
+  --md-sys-color-shadow: 0 0 0;
+  --md-sys-color-scrim: 0 0 0;
+
+  /* Inverse Colors */
+  --md-sys-color-inverse-surface: 49 48 51;
+  --md-sys-color-inverse-on-surface: 244 239 244;
+  --md-sys-color-inverse-primary: 208 188 255;
+
+  /* Surface Tint */
+  --md-sys-color-surface-tint: 103 80 164;
+
+  /* Elevation Shadows */
+  --md-sys-elevation-level0: none;
+  --md-sys-elevation-level1: 0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level2: 0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level3: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level4: 0px 2px 3px 0px rgba(0, 0, 0, 0.3), 0px 6px 10px 4px rgba(0, 0, 0, 0.15);
+  --md-sys-elevation-level5: 0px 4px 4px 0px rgba(0, 0, 0, 0.3), 0px 8px 12px 6px rgba(0, 0, 0, 0.15);
+
+  /* Typography Scale */
+  --md-sys-typescale-display-large-font-size: 57px;
+  --md-sys-typescale-display-large-line-height: 64px;
+  --md-sys-typescale-display-large-font-weight: 400;
+
+  --md-sys-typescale-display-medium-font-size: 45px;
+  --md-sys-typescale-display-medium-line-height: 52px;
+  --md-sys-typescale-display-medium-font-weight: 400;
+
+  --md-sys-typescale-display-small-font-size: 36px;
+  --md-sys-typescale-display-small-line-height: 44px;
+  --md-sys-typescale-display-small-font-weight: 400;
+
+  --md-sys-typescale-headline-large-font-size: 32px;
+  --md-sys-typescale-headline-large-line-height: 40px;
+  --md-sys-typescale-headline-large-font-weight: 400;
+
+  --md-sys-typescale-headline-medium-font-size: 28px;
+  --md-sys-typescale-headline-medium-line-height: 36px;
+  --md-sys-typescale-headline-medium-font-weight: 400;
+
+  --md-sys-typescale-headline-small-font-size: 24px;
+  --md-sys-typescale-headline-small-line-height: 32px;
+  --md-sys-typescale-headline-small-font-weight: 400;
+
+  --md-sys-typescale-title-large-font-size: 22px;
+  --md-sys-typescale-title-large-line-height: 28px;
+  --md-sys-typescale-title-large-font-weight: 400;
+
+  --md-sys-typescale-title-medium-font-size: 16px;
+  --md-sys-typescale-title-medium-line-height: 24px;
+  --md-sys-typescale-title-medium-font-weight: 500;
+
+  --md-sys-typescale-title-small-font-size: 14px;
+  --md-sys-typescale-title-small-line-height: 20px;
+  --md-sys-typescale-title-small-font-weight: 500;
+
+  --md-sys-typescale-body-large-font-size: 16px;
+  --md-sys-typescale-body-large-line-height: 24px;
+  --md-sys-typescale-body-large-font-weight: 400;
+
+  --md-sys-typescale-body-medium-font-size: 14px;
+  --md-sys-typescale-body-medium-line-height: 20px;
+  --md-sys-typescale-body-medium-font-weight: 400;
+
+  --md-sys-typescale-body-small-font-size: 12px;
+  --md-sys-typescale-body-small-line-height: 16px;
+  --md-sys-typescale-body-small-font-weight: 400;
+
+  --md-sys-typescale-label-large-font-size: 14px;
+  --md-sys-typescale-label-large-line-height: 20px;
+  --md-sys-typescale-label-large-font-weight: 500;
+
+  --md-sys-typescale-label-medium-font-size: 12px;
+  --md-sys-typescale-label-medium-line-height: 16px;
+  --md-sys-typescale-label-medium-font-weight: 500;
+
+  --md-sys-typescale-label-small-font-size: 11px;
+  --md-sys-typescale-label-small-line-height: 16px;
+  --md-sys-typescale-label-small-font-weight: 500;
+
+  /* Shape Scale */
+  --md-sys-shape-corner-none: 0px;
+  --md-sys-shape-corner-extra-small: 4px;
+  --md-sys-shape-corner-small: 8px;
+  --md-sys-shape-corner-medium: 12px;
+  --md-sys-shape-corner-large: 16px;
+  --md-sys-shape-corner-extra-large: 28px;
+  --md-sys-shape-corner-full: 1000px;
+
+  /* Motion Tokens */
+  --md-sys-motion-duration-short1: 50ms;
+  --md-sys-motion-duration-short2: 100ms;
+  --md-sys-motion-duration-short3: 150ms;
+  --md-sys-motion-duration-short4: 200ms;
+  --md-sys-motion-duration-medium1: 250ms;
+  --md-sys-motion-duration-medium2: 300ms;
+  --md-sys-motion-duration-medium3: 350ms;
+  --md-sys-motion-duration-medium4: 400ms;
+  --md-sys-motion-duration-long1: 450ms;
+  --md-sys-motion-duration-long2: 500ms;
+  --md-sys-motion-duration-long3: 550ms;
+  --md-sys-motion-duration-long4: 600ms;
+
+  --md-sys-motion-easing-linear: cubic-bezier(0, 0, 1, 1);
+  --md-sys-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --md-sys-motion-easing-standard-accelerate: cubic-bezier(0.3, 0, 1, 1);
+  --md-sys-motion-easing-standard-decelerate: cubic-bezier(0, 0, 0, 1);
+  --md-sys-motion-easing-emphasized: cubic-bezier(0.2, 0, 0, 1);
+  --md-sys-motion-easing-emphasized-accelerate: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --md-sys-motion-easing-emphasized-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  /* Primary Colors */
+  --md-sys-color-primary: 208 188 255;
+  --md-sys-color-on-primary: 54 44 63;
+  --md-sys-color-primary-container: 79 55 139;
+  --md-sys-color-on-primary-container: 234 221 255;
+
+  /* Secondary Colors */
+  --md-sys-color-secondary: 204 194 220;
+  --md-sys-color-on-secondary: 51 45 65;
+  --md-sys-color-secondary-container: 74 68 88;
+  --md-sys-color-on-secondary-container: 232 222 248;
+
+  /* Tertiary Colors */
+  --md-sys-color-tertiary: 239 184 200;
+  --md-sys-color-on-tertiary: 73 37 50;
+  --md-sys-color-tertiary-container: 99 58 73;
+  --md-sys-color-on-tertiary-container: 255 216 228;
+
+  /* Error Colors */
+  --md-sys-color-error: 242 184 181;
+  --md-sys-color-on-error: 105 37 32;
+  --md-sys-color-error-container: 147 0 10;
+  --md-sys-color-on-error-container: 249 222 220;
+
+  /* Surface Colors */
+  --md-sys-color-surface: 16 16 20;
+  --md-sys-color-on-surface: 230 225 229;
+  --md-sys-color-surface-variant: 73 69 78;
+  --md-sys-color-on-surface-variant: 202 196 208;
+  --md-sys-color-surface-container-lowest: 10 10 13;
+  --md-sys-color-surface-container-low: 22 22 26;
+  --md-sys-color-surface-container: 30 29 34;
+  --md-sys-color-surface-container-high: 40 40 44;
+  --md-sys-color-surface-container-highest: 51 50 55;
+
+  /* Background Colors */
+  --md-sys-color-background: 16 16 20;
+  --md-sys-color-on-background: 230 225 229;
+
+  /* Outline Colors */
+  --md-sys-color-outline: 147 143 153;
+  --md-sys-color-outline-variant: 73 69 78;
+
+  /* Inverse Colors */
+  --md-sys-color-inverse-surface: 230 225 229;
+  --md-sys-color-inverse-on-surface: 49 48 51;
+  --md-sys-color-inverse-primary: 103 80 164;
+
+  /* Surface Tint */
+  --md-sys-color-surface-tint: 208 188 255;
+}
+
+/* Material Design Utility Classes */
+.md-elevation-0 {
+  box-shadow: var(--md-sys-elevation-level0);
+}
+
+.md-elevation-1 {
+  box-shadow: var(--md-sys-elevation-level1);
+}
+
+.md-elevation-2 {
+  box-shadow: var(--md-sys-elevation-level2);
+}
+
+.md-elevation-3 {
+  box-shadow: var(--md-sys-elevation-level3);
+}
+
+.md-elevation-4 {
+  box-shadow: var(--md-sys-elevation-level4);
+}
+
+.md-elevation-5 {
+  box-shadow: var(--md-sys-elevation-level5);
+}
+
+/* Typography Classes */
+.md-display-large {
+  font-size: var(--md-sys-typescale-display-large-font-size);
+  line-height: var(--md-sys-typescale-display-large-line-height);
+  font-weight: var(--md-sys-typescale-display-large-font-weight);
+}
+
+.md-display-medium {
+  font-size: var(--md-sys-typescale-display-medium-font-size);
+  line-height: var(--md-sys-typescale-display-medium-line-height);
+  font-weight: var(--md-sys-typescale-display-medium-font-weight);
+}
+
+.md-display-small {
+  font-size: var(--md-sys-typescale-display-small-font-size);
+  line-height: var(--md-sys-typescale-display-small-line-height);
+  font-weight: var(--md-sys-typescale-display-small-font-weight);
+}
+
+.md-headline-large {
+  font-size: var(--md-sys-typescale-headline-large-font-size);
+  line-height: var(--md-sys-typescale-headline-large-line-height);
+  font-weight: var(--md-sys-typescale-headline-large-font-weight);
+}
+
+.md-headline-medium {
+  font-size: var(--md-sys-typescale-headline-medium-font-size);
+  line-height: var(--md-sys-typescale-headline-medium-line-height);
+  font-weight: var(--md-sys-typescale-headline-medium-font-weight);
+}
+
+.md-headline-small {
+  font-size: var(--md-sys-typescale-headline-small-font-size);
+  line-height: var(--md-sys-typescale-headline-small-line-height);
+  font-weight: var(--md-sys-typescale-headline-small-font-weight);
+}
+
+.md-title-large {
+  font-size: var(--md-sys-typescale-title-large-font-size);
+  line-height: var(--md-sys-typescale-title-large-line-height);
+  font-weight: var(--md-sys-typescale-title-large-font-weight);
+}
+
+.md-title-medium {
+  font-size: var(--md-sys-typescale-title-medium-font-size);
+  line-height: var(--md-sys-typescale-title-medium-line-height);
+  font-weight: var(--md-sys-typescale-title-medium-font-weight);
+}
+
+.md-title-small {
+  font-size: var(--md-sys-typescale-title-small-font-size);
+  line-height: var(--md-sys-typescale-title-small-line-height);
+  font-weight: var(--md-sys-typescale-title-small-font-weight);
+}
+
+.md-body-large {
+  font-size: var(--md-sys-typescale-body-large-font-size);
+  line-height: var(--md-sys-typescale-body-large-line-height);
+  font-weight: var(--md-sys-typescale-body-large-font-weight);
+}
+
+.md-body-medium {
+  font-size: var(--md-sys-typescale-body-medium-font-size);
+  line-height: var(--md-sys-typescale-body-medium-line-height);
+  font-weight: var(--md-sys-typescale-body-medium-font-weight);
+}
+
+.md-body-small {
+  font-size: var(--md-sys-typescale-body-small-font-size);
+  line-height: var(--md-sys-typescale-body-small-line-height);
+  font-weight: var(--md-sys-typescale-body-small-font-weight);
+}
+
+.md-label-large {
+  font-size: var(--md-sys-typescale-label-large-font-size);
+  line-height: var(--md-sys-typescale-label-large-line-height);
+  font-weight: var(--md-sys-typescale-label-large-font-weight);
+}
+
+.md-label-medium {
+  font-size: var(--md-sys-typescale-label-medium-font-size);
+  line-height: var(--md-sys-typescale-label-medium-line-height);
+  font-weight: var(--md-sys-typescale-label-medium-font-weight);
+}
+
+.md-label-small {
+  font-size: var(--md-sys-typescale-label-small-font-size);
+  line-height: var(--md-sys-typescale-label-small-line-height);
+  font-weight: var(--md-sys-typescale-label-small-font-weight);
+}
+
+/* Shape Classes */
+.md-shape-none {
+  border-radius: var(--md-sys-shape-corner-none);
+}
+
+.md-shape-extra-small {
+  border-radius: var(--md-sys-shape-corner-extra-small);
+}
+
+.md-shape-small {
+  border-radius: var(--md-sys-shape-corner-small);
+}
+
+.md-shape-medium {
+  border-radius: var(--md-sys-shape-corner-medium);
+}
+
+.md-shape-large {
+  border-radius: var(--md-sys-shape-corner-large);
+}
+
+.md-shape-extra-large {
+  border-radius: var(--md-sys-shape-corner-extra-large);
+}
+
+.md-shape-full {
+  border-radius: var(--md-sys-shape-corner-full);
+}
+
+/* Motion Classes */
+.md-motion-standard {
+  transition-timing-function: var(--md-sys-motion-easing-standard);
+  transition-duration: var(--md-sys-motion-duration-medium2);
+}
+
+.md-motion-emphasized {
+  transition-timing-function: var(--md-sys-motion-easing-emphasized);
+  transition-duration: var(--md-sys-motion-duration-medium4);
+}
+
+/* State Layer Utilities */
+.md-state-layer {
+  position: relative;
+  overflow: hidden;
+}
+
+.md-state-layer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: currentColor;
+  opacity: 0;
+  transition: opacity var(--md-sys-motion-duration-short2) var(--md-sys-motion-easing-standard);
+  pointer-events: none;
+}
+
+.md-state-layer:hover::before {
+  opacity: 0.08;
+}
+
+.md-state-layer:focus-visible::before {
+  opacity: 0.12;
+}
+
+.md-state-layer:active::before {
+  opacity: 0.16;
+}
